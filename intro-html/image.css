@@ -1,0 +1,242 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pic1 {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.pic4 {
+    width: 150px;
+    height: 150px;
+    margin-left: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pic5 {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+    margin-left: 30px;
+}
+
+.search-bar1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+}
+
+.search-bar2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    width: 500px;
+    border: none;
+    box-shadow:  0 1px 5px rgba(0, 0, 0, 0.25);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+
+}
+
+.title {
+    color: gray;
+    font-family: Arial;
+    margin-top: 8px;
+
+}
+
+.search-bar3 {
+    margin-top: 8px;
+    width: 365px;
+    height: 25px;
+    
+    border-radius: 5px;
+}
+
+.sub-title {
+    margin-top: 16px;
+    color: gray;
+    font-family: Arial;
+}
+
+.agree {
+    font-family: Arial;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(54, 54, 223);
+    margin-top: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 150px;
+    padding-left: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+.pic6 {
+    margin-top: 16px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.search-bar4 {
+    margin-top: 16px;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 160px;
+    padding-left: 16px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.tweet {
+    margin-top: 16px;
+    background-color: rgb(76, 134, 227);
+    color: white;
+    vertical-align: middle;
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 20px;
+}
+.name, .email {
+    margin-top: 5px;
+    display: block;
+    width: 200px;
+    height: 30px;
+
+}
+
+.survey {
+    display: inline-block;
+    vertical-align: middle;
+    width: 210px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.yes, .no {
+    vertical-align: middle;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+
+.google {
+    display: block;
+    margin-left: 550px;
+    margin-bottom: 10px;
+}
+
+.google-search-bar {
+    margin-left: 450px;
+    margin-bottom: 16px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 1px 6px gray;
+    border-radius: 20px;
+    padding-left: 16px;
+  padding-right: 16px;
+}
+
+.first-name1, .first-name2 {
+    font-size: 16px;
+    margin-top: 8px;
+    padding-left: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+
+.email-name {
+    display: block;
+    margin-top: 8px;
+    width: 400px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    border-radius: 10px;
+    border-width: 1px;
+    font-size: 16px;
+}
+
+.sign-up {
+    width: 400px;
+    color: white;
+    background-color: rgb(32, 117, 227);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.request {
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.destination, .location {
+    display: block;
+    margin-bottom: 8px;
+    width: 300px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    font-size: 14px;
+    border: none;
+    background-color: rgb(181, 181, 181);
+    color: rgb(93, 83, 83);
+}
+
+.now {
+    border: none;
+    background-color: black;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.later {
+    background-color: rgb(181, 181, 181);
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
