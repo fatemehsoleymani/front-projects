@@ -37,7 +37,7 @@
     flex: 1;
     margin-left: 300px;
     margin-right: 300px;
-    max-width: 600px; 
+    width: 600px; 
     display: flex;
     align-items: center;
 }
@@ -52,7 +52,7 @@
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
     box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
-    width: 600px;
+    max-width: 600px;
 }
 
 .search-bar::placeholder {
@@ -123,6 +123,7 @@
     justify-content: space-between;
     flex-shrink: 0;
     width: 200px;
+    margin-right: 28px;
 }
 
 .upload {
@@ -154,10 +155,7 @@
     font-size: 10px;
     font-weight: bold;
     text-align: center;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-right: 1px;
-    padding-left: 1px;
+    padding: 1px;
     height: 12px;
     width: 12px;
     border: 2px solid white;
@@ -165,8 +163,6 @@
 }
 .profile-image {
     width: 30px;
-    padding-right: 50px;
 }
-
 
 
