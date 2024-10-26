@@ -1,0 +1,250 @@
+* {
+  font-family: "DM Sans", sans-serif;
+  font-style: italic;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 50px 100px;
+  background-color: hsla(0, 10%, 85%, 0.701);
+  margin-left: 400px;
+}
+
+.main-container {
+  display: flex;
+  
+}
+
+.create-post-container {
+  background-color: #FFF3E0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.create-post-text-container {
+  color: hsl(0, 0%, 7%);
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -1.5px;
+  line-height: 24px;
+  margin-left: 20px;
+  margin-bottom: 18px;
+}
+
+.quicker {
+  color: hsl(256, 67%, 59%);
+}
+.create-post-img {
+  width: 120px;
+}
+
+.AI-container {
+ background-color:  hsl(39, 100%, 71%);    
+}
+
+
+.AI-text {
+  font-size: 24px;
+  letter-spacing: -2px;
+  line-height: 24px;
+  font-weight: bold;
+  color: hsl(0, 0%, 7%);;
+  padding: 12px 24px 40px 10px;
+}
+
+.AI-img  {
+  width: 140px;
+  margin-left: 10px;
+}
+
+.social-media-container {
+  width: 370px;
+  height: 210px;
+  background-color: hsl(256, 55%, 61%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.social-media-text {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.media-span {
+  color: hsl(39, 100%, 71%);
+}
+
+.media-img {
+  width: 120px;
+}
+
+.star-text {
+  color: white;
+  font-size: 14px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 175px 175px;
+}
+
+.multiple-accounts-container {
+  background-color: white;
+  width: 175px;
+  height: 155px;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.multiple-platform-img {
+  width: 200px;
+  padding-left: 26px;
+}
+
+.multiple-accounts-text {
+  font-size: 22px;
+  padding-left: 26px;
+  padding-top: 15px;
+  letter-spacing: -1px;
+  line-height: 20px;
+}
+
+.consistent-schedule-container {
+  background-color: hsl(39, 100%, 71%);
+  width: 175px;
+  height: 155px;
+  overflow: hidden;
+  border-radius: 6px;
+  display: inline-block;
+  margin-left: 14px;
+}
+
+.consistent-schedule-text {
+  font-size: 20px;
+  padding-left: 18px;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  line-height: 20px;
+  letter-spacing: -1px;
+}
+.consistent-schedule-img {
+  width: 140px;
+  padding-left:18px;
+}
+
+.audience-container {
+  background-color: white;
+  width: 175px;
+  height: 170px;
+  margin-top: 20px;
+  overflow: hidden;
+  border-radius: 6px;
+
+}
+.audience-text {
+  padding-left: 26px;
+  padding-top: 10px;
+  font-size: 12px;
+}
+.audience-span {
+  font-size: 36px;
+  font-weight: bold;
+}
+p {
+  padding-top: 5px;
+}
+.audience-img {
+  width: 130px;
+  padding-left: 26px;
+  padding-top: 32px;
+}
+
+.grow-followers-container {
+  width: 365px;
+  height: 170px;
+  color: white;
+  background-color: hsl(256, 67%, 59%);
+  margin-left: 20px;
+  border-radius: 6px;
+  display: grid;
+  grid-template-columns: 140px 200px;
+  column-gap: 45px;
+  align-items: center;
+
+
+}
+
+.grow-followers-img {
+  width: 160px;
+  padding-left: 20px;
+}
+
+.grow-followers-text {
+  font-size: 26px;
+  line-height: 24px;
+  letter-spacing: -1px;
+}
+.schedule-container {
+  width: 170px;
+  height: 385px;
+  background-color: #dad7e1;
+  border-radius: 6px;
+}
+
+.schedule-text {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  letter-spacing: -1px;
+  color: hsl(0, 0%, 7%);
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 16px;
+  
+}
+.schedule-img-container {
+  width: 145px;
+  overflow: hidden;
+  margin-left: 25px;
+  
+}
+
+.schedule-img {
+  width: 230px;
+ 
+ 
+  
+}
+
+.schedule-img-text {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 18px;
+  margin-top: 15px;
+  color: hsl(0, 0%, 7%);
+}
+
+
+.create-post-container,  .AI-container{
+  width: 160px;
+  height: 280px;
+  border-radius: 6px;
+}
+
+.AI-container, .consistent-schedule-container, .grow-followers-container {
+  margin-top: 20px;
+}
