@@ -1,0 +1,176 @@
+.google {
+    display: block;
+    margin-left: 550px;
+    margin-bottom: 10px;
+}
+
+.google-search-bar {
+    margin-left: 450px;
+    margin-bottom: 16px;
+    width: 500px;
+    height: 30px;
+    border: none;
+    box-shadow: 0 1px 6px gray;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    display: block;
+}
+.google-div {
+    text-align: center;
+}
+
+.google-bottom {
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.search-button {
+    margin-right: 10px;
+}
+
+
+
+.square {
+    display: inline-block;
+    margin-right: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: green;
+}
+
+.service {
+    border-width: 1px;
+     border-style: solid;
+    border-color: rgb(150, 150, 150);
+    width: 300px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.youtube {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    background-color: rgb(52, 49, 49);
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.install {
+    font-size: 24px;
+    color: white;
+}
+
+.add {
+    width: 320px;
+    color: gray;
+}
+
+.tweet {
+    width: 450px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);;
+}
+
+.pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    vertical-align: middle;
+    margin-left: 8px;
+    
+   
+}
+
+.tweet-search {
+    border: none;
+    vertical-align: middle;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.button-tweet {
+    background-color: rgb(21, 115, 229);
+    color: white;
+    border: none;
+    vertical-align: middle;
+    font-size: 20px;
+    border-radius: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+
+
+
+.sub-dic {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    width: 200px;
+    height: 235px;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.pic1{
+    width: 200px;
+    object-fit: cover;
+}
+
+.oliver {
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+
+.oliver-friends {
+    padding-left: 5px;
+    font-size: 14px;
+    color: grey;
+    margin-top: 1px;
+}
+
+.oliver-button {
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(40, 148, 225);
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 3px;
+}
+
+.pic5 {
+    width: 200px;
+    height: 135px;
+    object-fit: fill;
+    
+}
+
+.pic7 {
+    width: 200px;
+    height: 135px;
+    object-fit: fill;
+}

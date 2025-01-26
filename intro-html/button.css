@@ -1,0 +1,295 @@
+
+    .youtube {
+        background-color: rgb(242, 18, 18);
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+
+    .join {
+        border-color: rgb(53, 134, 239);
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 2px;
+        background-color: white;
+        color: rgb(53, 134, 239);
+        height: 36px;
+        width: 70px;
+        cursor: pointer;
+    }
+
+    .tweeter {
+        background-color: rgb(49, 183, 240);
+        color: white;
+        border: none;
+        height: 36px;
+        width: 80px;
+        border-radius: 25px;
+        margin-left: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    .request-button {
+        background-color: black;
+        color: white;
+        border: none;
+        width: 100px;
+        height: 36px;
+        margin-left: 8px;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+
+    .request-button:hover {
+        opacity: 0.5;
+    }
+
+    .add-to-amazon {
+        background-color: rgb(244, 206, 18);
+        color: white;
+        width: 200px;
+        height: 36px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+
+    .sign-up {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        width: 80px;
+        height: 36px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 1s;
+    }
+
+    .sign-up:hover {
+        box-shadow: 5px 5px 19px rgb(0, 0, 0, 0.15);
+    }
+    
+    .get-start {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        width: 100px;
+        height: 36px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        margin-left: 8px;
+        font-weight: bold;
+    }
+
+    .download {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        width: 80px;
+        height: 36px;
+        border-radius: 4px;
+        border-color: rgb(108, 117, 125);
+        border-width: 1px;
+        cursor: pointer;
+        margin-left: 8px;
+        font-weight: bold;
+        border-style: solid;
+    }
+
+    .download:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+
+    .apply {
+        background-color: rgb(10, 102, 194);
+        color:white ;
+        width: 350px;
+        height: 36px;
+        border-radius: 15px;
+        border: none;
+        border-width: 1px;
+        cursor: pointer;
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 15px;
+        border-style: solid;
+    }
+
+    .save {
+        background-color: white;
+        color: rgb(10, 102, 194);
+        width: 100px;
+        height: 36px;
+        border-radius: 20px;
+        border-color: rgb(10, 102, 194);
+        border-width: 1px;
+        cursor: pointer;
+        margin-left: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        border-style: solid;
+    }
+
+    a {
+        color: rgb(0, 113, 133);
+        font-size: 20px;
+    }
+
+    a:hover {
+        color: red;
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    h3 {
+        color: rgb(0, 118, 0);
+    }
+
+    p {
+        font-weight: bold;
+    }
+
+    .add-cart {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        border: none;
+        height: 35px;
+        width: 130px;
+        border-radius: 15px;
+        margin-right: 8px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .add-cart:active {
+        opacity: 0.7;
+    }
+
+    .buy {
+        background-color: rgb(255, 164, 28);
+        color: black;
+        border: none;
+        height: 35px;
+        width: 130px;
+        border-radius: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .buy:active {
+        opacity: 0.7;
+    }
+
+    .num {
+        color:rgba(128, 0, 255, 0.704);
+        margin-left: 7px;
+    }
+
+    .back {
+        padding: 15px;
+        font-size: 20px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .stretch {
+        color: white;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: padding 0.5s;
+    }
+
+    .stretch:hover {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .shadow {
+        color: white;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        margin-left: 8px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.222);
+    }
+
+    .shadow:hover {
+        box-shadow: none;
+    }
+
+    .one {
+        color: white;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        margin-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+    }
+
+    .one:hover {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .two {
+        color: white;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        margin-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .two:hover {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .three {
+        color: white;
+        background-color: green;
+        cursor: pointer;
+        border: none;
+        font-size: 18px;
+        margin-left: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .three:hover {
+        padding-left: 25px;
+        padding-right: 25px;
+    }

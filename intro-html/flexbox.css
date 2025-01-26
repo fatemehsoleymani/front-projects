@@ -1,0 +1,190 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.div-flexbox {
+    display: flex;
+}
+
+.div1 {
+    width: 200px;
+    background-color: lightblue;
+}
+
+.div2 {
+    width: 75px;
+    background-color: pink;
+}
+
+.item1 {
+    width: 50px;
+    background-color: lightblue;
+}
+
+.item2 {
+    flex: 1;
+    background-color: pink;
+}
+
+.item3 {
+    width: 75px;
+    background-color: lightblue;
+}
+
+.flex3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: pink;
+}
+
+.flex4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 1px; 
+    border-style: solid;  
+    border-color: gray;
+    height: 50px;
+     align-items: center;
+}
+
+.item4 {
+    background-color: pink;
+}
+
+.flex5 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.home-button {
+    color: white;
+    background-color: rgba(37, 37, 220, 0.727);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 25px;
+}
+
+.flex6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgb(156, 41, 209);
+    width: 800px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.flex-home {
+    color: white;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.flex-search {
+    color: rgb(103, 101, 101);
+    padding-left: 40px;
+    padding-right: 300px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-radius: 20px;
+}
+
+.download-button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 12px;
+    padding-left: 12px;
+    margin-right: 8px;
+    color: white;
+    background-color: rgb(156, 41, 209);
+    border-color: whithe;
+    border-width: 1px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.facebook {
+    width: 400px;
+    height: 250px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.facebook-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facebook-p {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 12px;
+}
+.name-div {
+    line-height: 20px;
+}
+
+.name-div-dog {
+    margin-right: -22px;
+}
+
+.name {
+    font-weight: bold;
+
+}
+.cat, .popular {
+    color: gray;
+    font-size: 14px;
+}
+
+.follow {
+    color: white;
+    background-color: rgb(80, 80, 175);
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 15px;
+    margin-right: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
