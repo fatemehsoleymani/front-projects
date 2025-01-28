@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="eduford_img/logo.png"></a>
+      <button class="open-menu-button" onclick="
+        opneSidebar();
+      "><i class="fa fa-bars"></i></button>
+      <div class="nav-links">
+        <button class="close-menu-button" onclick="
+            closeSidebar();
+            "><i class="material-icons">close</i></button>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">COURSE</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="text-box">
+      <h1>World's Biggest University</h1>
+      <a class="hero-btn" href="https://www.google.com/">Visit our Website</a>
+    </div>
+  </section>
+  <div class="overlay" onclick="closeSidebar();"></div>
+  <main>
+    <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, eligendi rerum asperiores temporibus sint omnis, a quia non labore itaque consequuntur commodi quam blanditiis voluptatem modi nobis ipsam! Sed, porro!</P>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam voluptatibus debitis autem et qui a fuga cupiditate mollitia adipisci dignissimos impedit eaque eveniet voluptatem praesentium ducimus totam itaque, porro inventore?</p>
+  </main>
+</body>
+<script src="hamburger-menu.js"></script>
+</html>
