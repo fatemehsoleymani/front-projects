@@ -23,7 +23,12 @@ This repository contains several front-end projects that I’ve built using HTML
 5. **YouTube Project**  
    - A YouTube-like project mimicking the interface of YouTube.  
    - [Live Demo](https://fatemehsoleymani.github.io/front-projects/youtube-project/)
+   
 
+5. **Rock Paper Scissors Game**
+   - A simple Rock-Paper-Scissors game
+   - [Live Demo](https://fatemehsoleymani.github.io/front-projects/rock-paper-scissors-project/)
+     
 ## Technologies Used
 - HTML
 - CSS
