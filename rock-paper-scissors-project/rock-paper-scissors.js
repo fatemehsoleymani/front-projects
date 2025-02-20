@@ -113,6 +113,18 @@ document.querySelector('.js-score').innerHTML =
 
 }
 
+function reserscore() {
+  score.wins = 0;
+    score.losses = 0;
+    score.ties = 0;
+    localStorage.removeItem('score');
+    updateScorElement();
+}
+
+document.querySelector('.js-reset-button').addEventListener('click', () => {
+  reserscore();
+})
+
 function pickComputerMove() {
 let computerMove = '';
 const randomNumber = Math.random();
