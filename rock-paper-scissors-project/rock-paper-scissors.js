@@ -38,6 +38,10 @@ document.querySelector('.js-scissors-button').addEventListener('click', () => {
   playGame('scissors');
 });
 
+document.querySelector('.js-auto-play').addEventListener('click', () => {
+  autoPlay();
+});
+
 document.body.addEventListener('keydown', (event) => {
   if (event.key === 'r') {
     playGame('rock');
